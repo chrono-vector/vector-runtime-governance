@@ -32,6 +32,26 @@ This index may only point to those documents. It does not amend, widen, or repla
 
 ---
 
+## Document authority order
+
+Ecosystem documents are read in the following authority order. Lower-numbered entries take precedence over higher-numbered entries.
+
+| Order | Document | Location | Authority class |
+|-------|----------|----------|-----------------|
+| **1** | Constitution | vector-runtime-governance-public | L0a — sole plane law |
+| **2** | Supplement 001 | vector-runtime-governance-public | L0a clarification |
+| **3** | Blueprint | vector-runtime-governance-public | Orientation only |
+| **4** | Governance Contract | vector-signal-chronicle | Ecosystem principles; subordinate to L0a |
+| **5** | Unified VECTOR Architecture | vector-signal-chronicle | Ecosystem map; subordinate to L0a |
+| **6** | Repository Role | vector-runtime-governance-public | Repository locus; descriptive |
+| **7** | This index | vector-runtime-governance-public | Navigation only |
+
+**On conflict:**
+
+Constitution → Supplement → Blueprint take precedence over all ecosystem documents in any repository.
+
+---
+
 ## Purpose
 
 Help contributors understand:
