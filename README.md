@@ -2,12 +2,57 @@
 
 ## Overview
 
-This repository documents a **research prototype** for a safety control layer for AI systems—not a finished product, production deployment, or operational authorization.
+This repository is the **public ecosystem entry point** for the VECTOR portfolio. It documents architecture, governance orientation, and authority navigation for a **research** program in AI systems safety control—not a finished product, production deployment, or operational authorization.
 
 The goal is NOT to improve general performance, but to:
 
 * Prevent critical failures under degraded conditions
 * Maintain correct behavior when observations are unreliable
+
+## VECTOR Ecosystem
+
+VECTOR is a **multi-repository** AI systems research and engineering portfolio. Work is distributed so publication, verification, observation, and private research stay separable. The portfolio focuses on:
+
+* **Governance** — how claims, gates, and reading posture stay bounded
+* **Verification** — how outcomes can be checked against declared rules
+* **Provenance** — where records and evidence come from
+* **Reproducibility** — fixture-scoped and receipt-oriented checks
+* **Evidence-governed execution** — action only under declared evidence and gates (not default public behavior)
+* **Observation and documentation** — curated records and architectural orientation
+
+**Public visibility does not change document authority.** Publication does not authorize implementation, execution, deployment, or bridge activation. Linked public repositories are research and documentation surfaces—not claims of complete production systems.
+
+### Public repository map
+
+| Repository | Role |
+| --- | --- |
+| **vector-runtime-governance-public** (this repo) | Ecosystem entry point; architecture and governance orientation; document authority navigation |
+| **[weaver-forge](https://github.com/chrono-vector/weaver-forge)** | Independent verification, reproducibility, receipt and evidence validation |
+| **[vector-signal-chronicle](https://github.com/chrono-vector/vector-signal-chronicle)** | Curated observation, signal review, chronological public record |
+
+### Internal research and preservation
+
+These are **not** public portfolio repositories. No private URLs or local paths are published here.
+
+| Workspace | Role |
+| --- | --- |
+| **AI_Lab** | Private research, implementation, and validation workspace |
+| **external_research_archive** | Local preservation-only archive; **not** a GitHub repository |
+| **job-agent** | Private active-development application |
+
+Publication and workspace boundaries (descriptive): [`REPOSITORY_ROLE.md`](REPOSITORY_ROLE.md).
+
+### Start here (document navigation)
+
+| Document | Why |
+| --- | --- |
+| [`REPOSITORY_ROLE.md`](REPOSITORY_ROLE.md) | This repository’s public role; publication vs private/local workspace boundary |
+| [`notes/04 VECTOR/VECTOR_ECOSYSTEM_REPOSITORY_AUTHORITY_INDEX.md`](notes/04%20VECTOR/VECTOR_ECOSYSTEM_REPOSITORY_AUTHORITY_INDEX.md) | Cross-repo responsibility map (navigation only; no new authority) |
+| [`notes/04 VECTOR/VECTOR_2_0_BLUEPRINT.md`](notes/04%20VECTOR/VECTOR_2_0_BLUEPRINT.md) | Architecture orientation guide |
+| [`notes/04 VECTOR/VECTOR_CONSTITUTION_MULTI_PLANE_ARCHITECTURE.md`](notes/04%20VECTOR/VECTOR_CONSTITUTION_MULTI_PLANE_ARCHITECTURE.md) | Sole L0a constitutional frame (plane law) |
+| [`notes/04 VECTOR/VECTOR_CONSTITUTION_SUPPLEMENT_001_AUTHORITY_BOUNDARIES.md`](notes/04%20VECTOR/VECTOR_CONSTITUTION_SUPPLEMENT_001_AUTHORITY_BOUNDARIES.md) | Sole L0a boundary clarification under the Constitution |
+
+**Authority order (unchanged):** Constitution → Supplement → Blueprint take precedence over repository role and indexes. This README is an entry point only.
 
 ## VECTOR progression
 

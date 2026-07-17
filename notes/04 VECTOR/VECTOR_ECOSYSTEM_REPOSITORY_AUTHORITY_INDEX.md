@@ -73,6 +73,8 @@ This document **never redefines** those responsibilities. Plane law, boundary ru
 | **[vector-signal-chronicle](https://github.com/chrono-vector/vector-signal-chronicle)** | Upstream external symbolic observation repository (Plane 2 chronicle locus) |
 | **[weaver-forge](https://github.com/chrono-vector/weaver-forge)** | Community collaboration repository and receipt layer |
 
+**Public vs private/local publication boundary (descriptive only):** [REPOSITORY_ROLE.md](../../REPOSITORY_ROLE.md) — section *Publication and Workspace Boundary*. Private/local workspaces (including AI_Lab, the local-only **external_research_archive**, and **job-agent**) are not public authority surfaces and are not expanded here. **external_research_archive** is not a GitHub repository.
+
 Authoritative plane and boundary definitions: [[VECTOR_CONSTITUTION_MULTI_PLANE_ARCHITECTURE]], [[VECTOR_CONSTITUTION_SUPPLEMENT_001_AUTHORITY_BOUNDARIES]].  
 Architecture orientation: [[VECTOR_2_0_BLUEPRINT]].
 
