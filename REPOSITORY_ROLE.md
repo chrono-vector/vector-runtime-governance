@@ -159,7 +159,7 @@ Descriptive only. This section does **not** redefine constitutional plane law, d
 | Workspace | Role (orientation) |
 |-----------|--------------------|
 | **AI_Lab** | Research, engineering, prototype, documentation, and validation workspace. Content is **not** public authority unless explicitly promoted through the defined review path (see [Promotion Boundary](#promotion-boundary)). |
-| **cad-vortex** | Private Plane 2 structured intake / normalization / provenance / structural screening → observation candidate. **v1 implemented with limitations.** Not Chronicle authority. Not verification authority. Not execution authority. No automatic handoff. Not production ready. Listing it here is orientation only and introduces **no new authority**. |
+| **cad-vortex** | Private Plane 2 observation-side intake / normalization / provenance / structural screening → observation candidate. Frozen v1 plus accepted additive v2 **caller-supplied claimed ERA lineage** (HEAD `53fdebb7175fe419969c5cbd5120752f50699a0f`). Claimed lineage is **not ERA-verified**. Not Chronicle authority. Not ERA verification authority. Not execution authority. No automatic handoff. Not production ready. Listing it here is orientation only and introduces **no new authority**. |
 | **external_research_archive** | Local **preservation-only** layer. **Currently not a GitHub repository.** Preserves external material, inventories, hashes, and review records. Remains **BRIDGE_INADMISSIBLE**. Preservation does **not** grant authority, endorsement, redistribution rights, or implementation permission. |
 | **job-agent** | Private active-development repository until an explicit publication review is completed. |
 
