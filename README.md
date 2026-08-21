@@ -243,6 +243,12 @@ The VECTOR ecosystem intentionally separates:
 
 This repository is the **publication / constitutional** surface. It does not collapse those boundaries.
 
+## License
+
+Owner-authored documents in this repository are licensed under Apache-2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+
+This is a constitutional / orientation publication surface. The Apache grant does not license private engineering workspaces, CAD, ERA, Chronicle signal bodies, Weaver Forge materials hosted elsewhere, or other repositories. Public visibility is not a license grant. Apache-2.0 on this public surface does not require publishing private operational layers.
+
 ---
 
 **Status:** public constitutional / governance orientation only (`CURRENT_PUBLIC_ENTRY` for orientation). Not production. Not runtime. Not Public VECTOR v0. Not Stage 5 overall completion. Not Stage 6. Execution Control Bridge not activated. Gate ≠ Execution. Ingress Ready ≠ Evidence Admitted ≠ Weaver Execution Authorized.
