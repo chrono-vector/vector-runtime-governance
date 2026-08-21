@@ -16,6 +16,38 @@ It publishes:
 
 It is not the primary implementation repository.
 
+It is a **CURRENT_PUBLIC_ENTRY** for constitutional / orientation reading. It is **not** Public VECTOR v0, not a runtime, and not a fully automated live pipeline.
+
+---
+
+## Current VECTOR path (orientation only)
+
+VECTOR is a research reference architecture for keeping observation, interpretation, verification, replay, and execution from collapsing into each other, with a public read-only package boundary at Weaver Forge.
+
+The current high-level path is human-gated:
+
+External Sources → ERA → IG-01 → CAD → IG-02 → Human Promotion Gate → Observation Chronicle → IG-03 → Core-01 Decision Process → IG-04 Decision Trace → IG-05-A Structural Verification → Core-02 Verification Result Registry → Core-03 Replay Contract → IG-05-C Replay Eligibility / Gate → optional Owner-authorized Core-05 Replay → Replay Result → Core-04 Weaver Handoff Control → Repository Owner Handoff Authorization → VECTOR Handoff Package v0 → Weaver Forge VECTOR Package Ingress v0 → deterministic Ingress Result → Human / Repository Owner Review → STOP.
+
+This path is **not** one automatic live pipeline. Implementation lives in the private engineering workspace. **CAD-Vortex is a private satellite, not a public clone requirement.** ERA is local preservation only. Weaver Forge hosts VECTOR Package Ingress v0 as a ZIP-only read-only checking boundary; that Ingress is **not** Independent Witness, Evidence admission, Truth verification, Weaver execution, or Stage 6.
+
+IG-07 is readout / explanation only and does not add authority. Source Weaver GPT is not a mandatory pipeline stage.
+
+See the current-path section in [`README.md`](README.md) for the nonclaim block and document-role labels (`CURRENT_PUBLIC_ENTRY` vs `CONSTITUTIONAL_HISTORICAL` vs `HISTORICAL_RESEARCH`).
+
+```text
+Observation ≠ Interpretation
+Interpretation ≠ Verification
+Verification ≠ Execution
+Schema-valid ≠ True
+Replayable ≠ Externally True
+REPLAY_ELIGIBLE_BY_CONTRACT ≠ Replay Authorized
+Ingress Ready ≠ Evidence Admitted
+Ingress Ready ≠ Weaver Execution Authorized
+Ingress Ready ≠ Independent Witness PASS
+Ingress Ready ≠ Stage 6
+External review ≠ constitutional authority
+```
+
 ---
 
 ## Relationship to AI_Lab
@@ -41,14 +73,12 @@ AI_Lab is where governance concepts are developed and validated before publicati
 
 vector-signal-chronicle is responsible for:
 
-- External signals
+- External signals as **observation records**
 - Observer Reviews
-- Evidence
-- Confidence
-- Assessment
+- Confidence / assessment as **interpretation**, not verification
 - Chronicle governance
 
-This repository does not perform observation.
+Observation recorded there is **not** Evidence admission, **not** Truth verification, and **not** execution. This repository does not perform observation.
 
 ---
 
@@ -151,7 +181,7 @@ Descriptive only. This section does **not** redefine constitutional plane law, d
 | Repository | Public role (orientation) |
 |------------|---------------------------|
 | **vector-runtime-governance-public** | Public ecosystem entry point. Architecture, governance, authority navigation, and portfolio orientation. **Publication does not imply runtime authority or implementation authorization.** |
-| **weaver-forge** | Public verification, reproducibility, receipt-validation methods, and sanitized evidence. **Must not** expose private evidence stores or unreviewed third-party material. |
+| **weaver-forge** | Public verification, reproducibility, receipt-validation methods, sanitized evidence, **and** VECTOR Package Ingress v0 (read-only ZIP-only checking boundary). Ingress is **not** Independent Witness, Evidence admission, Weaver execution, or Stage 6. **Must not** expose private evidence stores, Owner package bytes, or unreviewed third-party material. |
 | **vector-signal-chronicle** | Public curated observation records and reviewed signal documentation. Raw signals, drafts, private messages, personal data, and unreviewed source material **must remain outside** the public publication layer. |
 
 ### Private or local workspaces
@@ -159,7 +189,7 @@ Descriptive only. This section does **not** redefine constitutional plane law, d
 | Workspace | Role (orientation) |
 |-----------|--------------------|
 | **AI_Lab** | Research, engineering, prototype, documentation, and validation workspace. Content is **not** public authority unless explicitly promoted through the defined review path (see [Promotion Boundary](#promotion-boundary)). |
-| **cad-vortex** | Private Plane 2 observation-side intake / normalization / provenance / structural screening → observation candidate. Frozen v1 plus accepted additive v2 **caller-supplied claimed ERA lineage** (HEAD `53fdebb7175fe419969c5cbd5120752f50699a0f`). Claimed lineage is **not ERA-verified**. Not Chronicle authority. Not ERA verification authority. Not execution authority. No automatic handoff. Not production ready. Listing it here is orientation only and introduces **no new authority**. |
+| **cad-vortex** | Private Plane 2 observation-side intake / normalization / provenance / structural screening → observation candidate. **Not a public clone requirement.** Claimed lineage is **not ERA-verified**. Not Chronicle authority. Not ERA verification authority. Not execution authority. No automatic handoff. Not production ready. Listing it here is orientation only and introduces **no new authority**. |
 | **external_research_archive** | Local **preservation-only** layer. **Currently not a GitHub repository.** Preserves external material, inventories, hashes, and review records. Remains **BRIDGE_INADMISSIBLE**. Preservation does **not** grant authority, endorsement, redistribution rights, or implementation permission. |
 | **job-agent** | Private active-development repository until an explicit publication review is completed. |
 
@@ -183,3 +213,4 @@ Public repositories must not contain:
 - Moving a repository or material from private/local to public requires **explicit review**.
 - **Public visibility does not change document authority.**
 - **Publication does not authorize** implementation, execution, deployment, governance, or bridge activation.
+- **Public VECTOR v0 is not yet a full operational release.** This repository remains orientation / constitution only.
