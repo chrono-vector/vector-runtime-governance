@@ -20,6 +20,8 @@ The research goal is **not** to improve general model performance. The program s
 
 VECTOR is an independently developed reference architecture that integrates established ideas in provenance, human oversight, deterministic validation, decision tracing, replay, and execution governance into a distinctive end-to-end boundary model. Public documents here do **not** claim that VECTOR invented those individual concepts, and they do **not** claim world-first or patent novelty.
 
+This repository is constitutional / orientation / reference documentation. It is **not** the machine that executes VECTOR. Organizations can use these documents as a transparent governance-orientation foundation while keeping operational Evidence, private workflows, enterprise integrations, and customer-specific controls separately governed. The main public technical landing/reference is [`vector-core`](https://github.com/chrono-vector/vector-core). This publication does **not** offer certification, legal compliance, regulatory approval, guaranteed safety, truth verification, or automatic Evidence admission.
+
 ## What lives here vs elsewhere
 
 | Surface | Role |
