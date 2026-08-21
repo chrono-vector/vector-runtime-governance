@@ -16,7 +16,7 @@ It publishes:
 
 It is not the primary implementation repository.
 
-It is a **CURRENT_PUBLIC_ENTRY** for constitutional / orientation reading. It is **not** Public VECTOR v0, not a runtime, and not a fully automated live pipeline.
+It is a **CURRENT_PUBLIC_ENTRY** for constitutional / orientation reading. It is **not** the Public VECTOR v0 reference tree (that is `vector-core`), not a runtime, and not a fully automated live pipeline.
 
 ---
 
@@ -181,8 +181,9 @@ Descriptive only. This section does **not** redefine constitutional plane law, d
 | Repository | Public role (orientation) |
 |------------|---------------------------|
 | **vector-runtime-governance-public** | Public ecosystem entry point. Architecture, governance, authority navigation, and portfolio orientation. **Publication does not imply runtime authority or implementation authorization.** |
-| **weaver-forge** | Public verification, reproducibility, receipt-validation methods, sanitized evidence, **and** VECTOR Package Ingress v0 (read-only ZIP-only checking boundary). Ingress is **not** Independent Witness, Evidence admission, Weaver execution, or Stage 6. **Must not** expose private evidence stores, Owner package bytes, or unreviewed third-party material. |
-| **vector-signal-chronicle** | Public curated observation records and reviewed signal documentation. Raw signals, drafts, private messages, personal data, and unreviewed source material **must remain outside** the public publication layer. |
+| **vector-core** | Sanitized Public VECTOR v0 **reference** (Apache-2.0). Architecture, schemas, validators, synthetic fixtures, and a path-independent CAD copy. **Not** operational authorization, Evidence admission, replay authorization, Weaver execution, or Stage 6. **Not** a full operational release. |
+| **weaver-forge** | Public verification, reproducibility, receipt-validation methods, sanitized evidence, **and** VECTOR Package Ingress v0 (read-only ZIP-only checking boundary). Ingress is **not** Independent Witness, Evidence admission, Weaver execution, or Stage 6. Public Core is Apache-2.0 with documented exclusions. **Must not** expose private evidence stores, Owner package bytes, or unreviewed third-party material. |
+| **vector-signal-chronicle** | Public curated observation records and reviewed signal documentation. Framework/reference material is Apache-2.0. `signals/**` remains public but is excluded from Apache-2.0 by default. Raw drafts, private messages, personal data, and unreviewed source material **must remain outside** the public publication layer. |
 
 ### Private or local workspaces
 
@@ -213,4 +214,4 @@ Public repositories must not contain:
 - Moving a repository or material from private/local to public requires **explicit review**.
 - **Public visibility does not change document authority.**
 - **Publication does not authorize** implementation, execution, deployment, governance, or bridge activation.
-- **Public VECTOR v0 is not yet a full operational release.** This repository remains orientation / constitution only.
+- **Public VECTOR v0 is not yet a full operational release.** The sanitized reference lives in `vector-core`. This repository remains orientation / constitution only.

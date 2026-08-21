@@ -18,14 +18,17 @@ The research goal is **not** to improve general model performance. The program s
 - prevent critical failures under degraded conditions
 - keep governance claims bounded when observations are unreliable
 
+VECTOR is an independently developed reference architecture that integrates established ideas in provenance, human oversight, deterministic validation, decision tracing, replay, and execution governance into a distinctive end-to-end boundary model. Public documents here do **not** claim that VECTOR invented those individual concepts, and they do **not** claim world-first or patent novelty.
+
 ## What lives here vs elsewhere
 
 | Surface | Role |
 | --- | --- |
-| **This repository** (`vector-runtime-governance-public`) | Public constitutional documents, governance orientation, and published architectural snapshots |
-| **Separate engineering / research workspace** | Implementation, validation campaigns, fixtures, contract tests, analysis scripts, and Stage 3–5 engineering evidence |
-| **[vector-signal-chronicle](https://github.com/chrono-vector/vector-signal-chronicle)** | Curated external observation / signal chronicle (observation only) |
-| **[weaver-forge](https://github.com/chrono-vector/weaver-forge)** | Independent community receipt / witness surface **and** host of VECTOR Package Ingress v0 (read-only checking boundary; not VECTOR runtime authority, not Independent Witness, not Stage 6) |
+| **This repository** (`vector-runtime-governance-public`) | Public constitutional documents, governance orientation, and published architectural snapshots. **Does not execute.** |
+| **[vector-core](https://github.com/chrono-vector/vector-core)** | Sanitized Public VECTOR v0 **reference** (Apache-2.0). Architecture, schemas, validators, synthetic fixtures, and a path-independent CAD copy. **Not** operational authorization, Evidence admission, replay authorization, Weaver execution, Stage 6, or a full operational release. |
+| **Separate engineering / research workspace** | Private implementation, validation campaigns, fixtures, contract tests, analysis scripts, and Stage 3–5 engineering evidence |
+| **[vector-signal-chronicle](https://github.com/chrono-vector/vector-signal-chronicle)** | Curated external observation / signal chronicle (observation only). Framework Apache-2.0; `signals/**` public but excluded from Apache-2.0 by default. |
+| **[weaver-forge](https://github.com/chrono-vector/weaver-forge)** | Independent community receipt / witness surface **and** host of VECTOR Package Ingress v0 (read-only checking boundary; not VECTOR runtime authority, not Independent Witness, not Stage 6). Public Core Apache-2.0 with documented exclusions. |
 
 Implementation and research evidence live in a **separate engineering workspace / repository**. This public repository does **not** contain those files and must not be read as if they were local here.
 
@@ -37,7 +40,7 @@ Publication and workspace boundaries (descriptive): [`REPOSITORY_ROLE.md`](REPOS
 
 **VECTOR is a research reference architecture for keeping observation, interpretation, verification, replay, and execution from collapsing into each other, with a public read-only package boundary at Weaver Forge.**
 
-This README is a **CURRENT_PUBLIC_ENTRY** for that orientation. It is **not** Public VECTOR v0, not a production product, and not a fully automated live pipeline. A sanitized public VECTOR operational release does **not** yet exist.
+This README is a **CURRENT_PUBLIC_ENTRY** for constitutional / orientation reading. It is **not** the Public VECTOR v0 reference tree (that is [`vector-core`](https://github.com/chrono-vector/vector-core)). It is **not** a production product and **not** a fully automated live pipeline. A sanitized public VECTOR **operational** release still does **not** exist. `vector-core` is a reference publication, not operational authorization.
 
 Human gates and cross-repository boundaries remain. Do not read the path below as one automatic system, as an execution engine for third parties, as Truth verification, as Evidence admission, or as Stage 6.
 
@@ -47,7 +50,7 @@ Human gates and cross-repository boundaries remain. Do not read the path below a
 External Sources
 → ERA                          (private preservation; not this repository)
 → IG-01
-→ CAD                          (private satellite; not a public clone requirement)
+→ CAD                          (private satellite; not a public clone requirement for this repo; sanitized copy is in vector-core)
 → IG-02
 → Human Promotion Gate
 → Observation Chronicle
@@ -118,6 +121,7 @@ VECTOR is **not**:
 | Stage 4 notes | `CONSTITUTIONAL_HISTORICAL` — documentation / reading-posture snapshots |
 | Constitutional Stage 5-B note | vocabulary / plane-boundary documentation; **not** ingestion or execution authority |
 | Weaver Forge Ingress README | `CURRENT_PUBLIC_ENTRY` for the public VECTOR package boundary (hosted there, not here) |
+| [`vector-core`](https://github.com/chrono-vector/vector-core) | `CURRENT_PUBLIC_ENTRY` for the sanitized Public VECTOR v0 **reference** (hosted there, not here). Not operational authorization. |
 | Chronicle `UNIFIED_VECTOR_ARCHITECTURE.md` | `CONSTITUTIONAL_HISTORICAL` — earlier two-repo map; not current operational architecture |
 | Stage 3–5 research notes elsewhere | `HISTORICAL_RESEARCH` / frozen research lineage — not the current operational VECTOR v0 map |
 
@@ -128,7 +132,7 @@ These are **not** this repository and are **not** published as local paths here.
 | Workspace | Role |
 | --- | --- |
 | **AI_Lab** | Private research, implementation, and validation workspace |
-| **CAD-Vortex** | Private Plane 2 intake satellite. **Not** a public clone requirement for this documentation repository |
+| **CAD-Vortex** | Private Plane 2 intake satellite. **Not** a public clone requirement for this documentation repository. A sanitized path-independent copy is published in [`vector-core`](https://github.com/chrono-vector/vector-core); that copy does not relicense or un-privatize the satellite. |
 | **external_research_archive** | Local preservation-only / untrusted archive; **not** a GitHub repository |
 | **job-agent** | Private active-development application |
 
@@ -167,7 +171,7 @@ This repository **does not** claim:
 - **Stage 5 overall is not complete** and is **not claimed complete**.
 - Constitutional documentation in this repository is **not** engineering implementation in AI_Lab.
 - Stage 4 published notes here are **documentation / reading-posture snapshots**. They are not runtime enforcement and do not supersede Stage 3 freeze authority.
-- **Public VECTOR v0 is not a full operational release.**
+- **Public VECTOR v0 is not a full operational release.** The sanitized reference lives in [`vector-core`](https://github.com/chrono-vector/vector-core). This repository remains constitutional / orientation only.
 - **Stage 6 is not entered.**
 - See [Public nonclaims](#public-nonclaims) for the Observation ≠ Interpretation ≠ Verification ≠ Execution inequalities.
 
@@ -181,7 +185,7 @@ This table is **orientation only**. Constitutional documentation and engineering
 | **Stage 4** | Published freeze, closure, validation-series, extension-map, and PR-preparation **notes** (historical documentation snapshots). | Exploratory runtime governance and `runtime_replay_bridge` MVP live in the engineering workspace. That MVP is **not** the External Execution Control Bridge. |
 | **Constitutional Stage 5-B** | External Signal Observer Architecture note exists (vocabulary / plane boundary). | Does **not** ingest signals or authorize execution. |
 | **AI_Lab Stage 5-B** | **Not published as implementation here.** | Validation corpus / campaign track in the engineering workspace. Treat as `HISTORICAL_RESEARCH` relative to the current IG/Core/Ingress path. |
-| **IG / Core / Weaver Ingress (2026-08-20)** | Orientation only (this README). Implementation, registries, and Owner packages are **not** in this repository. | Human-gated path in the private engineering workspace, with public ZIP-only Ingress on Weaver Forge. **Not** an automatic live pipeline. **Not** Public VECTOR v0. |
+| **IG / Core / Weaver Ingress (2026-08-20)** | Orientation only (this README). Implementation, registries, and Owner packages are **not** in this repository. | Human-gated path in the private engineering workspace, with public ZIP-only Ingress on Weaver Forge and a sanitized public **reference** in [`vector-core`](https://github.com/chrono-vector/vector-core). **Not** an automatic live pipeline. **Not** a full operational Public VECTOR v0 release. |
 | **Stage 5 overall** | **Not claimed complete.** | **Not claimed complete.** |
 | **Stage 6** | **Not entered. Not claimed.** | **Not entered. Not claimed.** |
 
@@ -251,4 +255,4 @@ This is a constitutional / orientation publication surface. The Apache grant doe
 
 ---
 
-**Status:** public constitutional / governance orientation only (`CURRENT_PUBLIC_ENTRY` for orientation). Not production. Not runtime. Not Public VECTOR v0. Not Stage 5 overall completion. Not Stage 6. Execution Control Bridge not activated. Gate ≠ Execution. Ingress Ready ≠ Evidence Admitted ≠ Weaver Execution Authorized.
+**Status:** public constitutional / governance orientation only (`CURRENT_PUBLIC_ENTRY` for orientation). Not production. Not runtime. Not the Public VECTOR v0 reference tree (`vector-core`). Not a full operational Public VECTOR v0 release. Not Stage 5 overall completion. Not Stage 6. Execution Control Bridge not activated. Gate ≠ Execution. Ingress Ready ≠ Evidence Admitted ≠ Weaver Execution Authorized.

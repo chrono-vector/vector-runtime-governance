@@ -69,12 +69,13 @@ This document **never redefines** those responsibilities. Plane law, boundary ru
 | Repository | One-line orientation |
 |------------|----------------------|
 | **vector-runtime-governance-public** | Public documentation home for constitutional, boundary, and architecture-orientation notes for VECTOR runtime governance |
+| **[vector-core](https://github.com/chrono-vector/vector-core)** | Sanitized Public VECTOR v0 **reference** (Apache-2.0). Architecture, schemas, validators, synthetic fixtures. Not operational authorization. Not this repository. |
 | **AI_Lab** | Runtime governance research prototype and validation surface (implementation, harnesses, and campaign artifacts) |
 | **[vector-signal-chronicle](https://github.com/chrono-vector/vector-signal-chronicle)** | Upstream external symbolic observation repository (Plane 2 chronicle locus) |
 | **[cad-vortex](https://github.com/chrono-vector/cad-vortex)** | VECTOR Plane 2 external-observation intake / normalization component (private repository; frozen v1 plus accepted additive v2 caller-supplied claimed ERA lineage with limitations; not ERA-verified) |
-| **[weaver-forge](https://github.com/chrono-vector/weaver-forge)** | Community collaboration repository and receipt layer |
+| **[weaver-forge](https://github.com/chrono-vector/weaver-forge)** | Community collaboration repository and receipt layer; host of VECTOR Package Ingress v0 |
 
-**Public vs private/local publication boundary (descriptive only):** [REPOSITORY_ROLE.md](../../REPOSITORY_ROLE.md) — section *Publication and Workspace Boundary*. Private/local workspaces (including AI_Lab, the private **cad-vortex** repository, the local-only **external_research_archive**, and **job-agent**) are not public authority surfaces. **external_research_archive** is a preservation / provenance archive and is **not** a GitHub repository. **cad-vortex** is a distinct GitHub repository (currently private) for structured Plane 2 intake / normalization; it is not the preservation archive, not Chronicle authority, and not a public authority surface. Listing a repository here does not grant it execution authority.
+**Public vs private/local publication boundary (descriptive only):** [REPOSITORY_ROLE.md](../../REPOSITORY_ROLE.md) — section *Publication and Workspace Boundary*. Private/local workspaces (including AI_Lab, the private **cad-vortex** repository, the local-only **external_research_archive**, and **job-agent**) are not public authority surfaces. **vector-core** is a public sanitized **reference** and is not constitutional L0a, not a runtime, and not a full operational release. **external_research_archive** is a preservation / provenance archive and is **not** a GitHub repository. **cad-vortex** is a distinct GitHub repository (currently private) for structured Plane 2 intake / normalization; it is not the preservation archive, not Chronicle authority, and not a public authority surface. Listing a repository here does not grant it execution authority.
 
 Authoritative plane and boundary definitions: [[VECTOR_CONSTITUTION_MULTI_PLANE_ARCHITECTURE]], [[VECTOR_CONSTITUTION_SUPPLEMENT_001_AUTHORITY_BOUNDARIES]].  
 Architecture orientation: [[VECTOR_2_0_BLUEPRINT]].
@@ -88,11 +89,12 @@ Repositories are classified by **primary documentation / responsibility class**.
 | Classification | Repository | Primary documentation |
 |----------------|------------|------------------------|
 | **Authority** | vector-runtime-governance-public | Constitution, Supplement, Blueprint, and published architecture notes |
+| **Public reference** | vector-core | Sanitized Public VECTOR v0 reference: architecture, schemas, validators, synthetic fixtures |
 | **Observation** | vector-signal-chronicle | External symbolic signals, Observer Events, observation discipline |
 | **Intake** | cad-vortex | Structured Plane 2 intake, normalization, provenance, and quarantine labeling |
 | **Runtime** | AI_Lab | Runtime governance research prototype and related research notes |
 | **Validation** | AI_Lab | Stage-scoped validation corpora, campaigns, and evidence artifacts |
-| **Community** | weaver-forge | Builder participation, receipts, and community evidence layer |
+| **Community** | weaver-forge | Builder participation, receipts, community evidence layer, and VECTOR Package Ingress v0 |
 
 AI_Lab appears under both **Runtime** and **Validation** because those classes co-locate in that repository; they remain distinct classes (see AI_Lab repository documents). They are not merged by this index.
 
@@ -106,7 +108,8 @@ Responsibilities below are **pointers** to existing repository roles. They do no
 
 | Repository | Primary role | Contains | Does NOT contain |
 |------------|--------------|----------|------------------|
-| **vector-runtime-governance-public** | Public constitutional publication and orientation documentation | [[VECTOR_CONSTITUTION_MULTI_PLANE_ARCHITECTURE]], [[VECTOR_CONSTITUTION_SUPPLEMENT_001_AUTHORITY_BOUNDARIES]], [[VECTOR_2_0_BLUEPRINT]], published Stage 4 / Constitutional Stage 5-B notes | Runtime implementation; chronicle signal bodies; community receipts; AI_Lab validation campaign authority |
+| **vector-runtime-governance-public** | Public constitutional publication and orientation documentation | [[VECTOR_CONSTITUTION_MULTI_PLANE_ARCHITECTURE]], [[VECTOR_CONSTITUTION_SUPPLEMENT_001_AUTHORITY_BOUNDARIES]], [[VECTOR_2_0_BLUEPRINT]], published Stage 4 / Constitutional Stage 5-B notes | Runtime implementation; chronicle signal bodies; community receipts; AI_Lab validation campaign authority; Public VECTOR v0 reference tree |
+| **vector-core** | Sanitized Public VECTOR v0 reference | Public architecture/nonclaim docs; public-safe schemas/validators; synthetic fixtures; path-independent CAD copy | Operational authorization; Evidence admission; replay authorization; Weaver execution; Stage 6; Chronicle `signals/`; ERA dumps; private operational artifacts |
 | **AI_Lab** | Runtime prototype and validation surface | Runtime governance research prototype; Stage 3-5 research and validation notes; validation artifacts and campaigns | Sole L0a constitutional text (read Authority repo); Plane 2 external observation authority (read chronicle repo); community receipt authority |
 | **vector-signal-chronicle** | Upstream observation | External signal chronicles; observation guidelines; symbolic-input execution-boundary records; Observer Event / assessment artifacts as maintained there | Runtime governance freeze authority; constitutional plane law; Stage 3 pin / replay freeze authority |
 | **cad-vortex** | Plane 2 external-observation intake / normalization | frozen v1 local UTF-8 intake; additive v2 caller-supplied claimed ERA lineage (accepted with limitations at `53fdebb7175fe419969c5cbd5120752f50699a0f`); claimed lineage is **not ERA-verified**; observation-candidate output; `BRIDGE_INADMISSIBLE` posture | Chronicle authority; ERA verification authority; automatic Chronicle record write; AI_Lab runtime dependency; Guard / Gate / executor; External Execution Control Bridge; network / live intake; production readiness; execution authority |
@@ -133,7 +136,8 @@ These surfaces remain distinct:
 | **vector-signal-chronicle** | Chronicle / External Observation record and Observer Review |
 | **AI_Lab** | Research / verification / validation |
 | **vector-runtime-governance-public** | Public governance / authority orientation |
-| **weaver-forge** | Independent / community receipts and collaboration |
+| **vector-core** | Public sanitized VECTOR v0 reference (not operational authorization) |
+| **weaver-forge** | Independent / community receipts and collaboration; VECTOR Package Ingress v0 |
 
 **Architecture relationship (documentation intent only — not a live pipeline):**
 
@@ -216,6 +220,7 @@ Repository-specific documents
 | Task locus | Primary documentation |
 |------------|------------------------|
 | Authority / architecture claims | Documents in this repository under `notes/04 VECTOR/` |
+| Sanitized Public VECTOR v0 reference | [vector-core](https://github.com/chrono-vector/vector-core) README / architecture / schemas (not operational authorization) |
 | External observation | vector-signal-chronicle entry documents |
 | Structured Plane 2 intake / observation candidates | cad-vortex repository documents (private); this index for locus only |
 | Runtime prototype or validation campaigns | AI_Lab notes and validation artifacts for the relevant stage |
@@ -236,6 +241,7 @@ This document **does not**:
 - Add MUST / MUST NOT rules
 - Replace or duplicate the Constitution, Supplement, or Blueprint
 - Grant CAD-Vortex execution authority, Chronicle authority, or production readiness by listing it
+- Grant vector-core operational authorization, Evidence admission, replay authorization, Weaver execution, or Stage 6 by listing it
 - Imply automatic CAD-Vortex → Chronicle write, Guard / Gate / executor wiring, or External Execution Control Bridge activation
 
 Read the Constitution for law. Read the Supplement for boundary clarification. Read the Blueprint for architecture orientation. Use this index only to find **which repository** holds **which class** of material.
